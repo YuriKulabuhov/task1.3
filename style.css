@@ -1,0 +1,224 @@
+@font-face {
+  font-family: "TT Lakes";
+  src: url("/fonts/TTLakes/TTLakes-Regular.woff") format("woff");
+}
+
+body {
+  font-size: 16px;
+  color: black;
+  font-family: "TT Lakes";
+}
+
+.header__menu-call,
+.header__menu-chat,
+.header__menu-profile {
+  display: none;
+}
+.header {
+  width: 100%;
+  height: 88px;
+  display: flex;
+  align-items: center;
+}
+.header__menu-burger {
+  margin-right: 17px;
+}
+.header__menu-repair {
+  border-left: 2px solid #eaeaea;
+  padding-left: 20px;
+}
+.menu-burger__icon {
+  background-image: url("/img/burger.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+}
+.header__logo {
+  padding-right: 30px;
+}
+.menu-call__icon {
+  background-image: url("/img/call.svg");
+  width: 40px;
+  height: 40px;
+  margin: 24px 16px;
+}
+.menu-chat__icon {
+  background-image: url("/img/chat.svg");
+  width: 40px;
+  height: 40px;
+  margin: 24px 16px;
+}
+.menu-profile__icon {
+  background-image: url("/img/profile.svg");
+  width: 40px;
+  height: 40px;
+  margin: 24px 16px;
+}
+.menu-repair__icon {
+  background-image: url("/img/repair.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+}
+.menu-checkstatus__icon {
+  background-image: url("/img/checkstatus.svg");
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+}
+.header__title {
+  padding-left: 12px;
+  border-left: 4px solid #41f6d7;
+}
+.main__menu {
+  overflow-x: auto;
+  display: flex;
+}
+.menu__button {
+  min-width: 246px;
+  min-height: 40px;
+  padding-left: 16.54px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 9.3px;
+  font-size: 16px;
+  border: 0px;
+  background-color: white;
+  margin-left: 16px;
+}
+.menu__button:nth-child(1) {
+  border: 2px solid #b8ffec;
+}
+
+.information__text {
+  margin: 30px 16px;
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
+}
+.information__text > p {
+  width: 100%;
+}
+
+.information__link {
+  margin-left: 30px;
+  display: flex;
+}
+.link__arrow {
+  margin-top: 5px;
+  width: 15px;
+  height: 15px;
+}
+.arrow__arrow1 {
+  width: 4px;
+  height: 4px;
+  border-top: 1px solid #41f6d7;
+  border-right: 1px solid #41f6d7;
+  margin-right: 60px;
+  transform: rotate(135deg);
+}
+.arrow__arrow2 {
+  width: 4px;
+  height: 4px;
+  border-top: 1px solid #41f6d7;
+  border-right: 1px solid #41f6d7;
+  margin-right: 60px;
+  transform: rotate(135deg);
+}
+.link__text {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.content__foto {
+  margin: 30px 0px;
+  width: 100%;
+  max-width: 320px;
+}
+.foto__foto1 {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .header {
+    justify-content: space-between;
+  }
+  .header__menu-call,
+  .header__menu-chat,
+  .header__menu-profile {
+    display: block;
+  }
+  .header__menu-burger {
+    border-right: 2px solid #eaeaea;
+    margin: 24px 0px 24px 24px;
+    padding-right: 20px;
+  }
+  .header__logo {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  .main__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .information__text {
+    margin: 30px 16px;
+    width: 330px;
+    height: 190px;
+    overflow: hidden;
+  }
+  .foto__foto1 {
+    border-radius: 5%;
+    width: 100%;
+  }
+  .content__foto {
+    margin: 30px 16px;
+    max-width: 360px;
+  }
+}
+@media (min-width: 1120px) {
+  .header__menu-burger,
+  .header__logo,
+  .header__menu-call,
+  .header__menu-chat,
+  .header__menu-profile {
+    display: none;
+  }
+  .header {
+    justify-content: flex-end;
+  }
+  .header__title {
+    width: 350px;
+  }
+  .header__menu-repair,
+  .header__menu-checkstatus {
+    display: flex;
+    align-items: center;
+    border: none;
+  }
+  .header__menu-repair::before {
+    content: "Оставить заявку";
+    padding-right: 20px;
+    font-weight: bold;
+  }
+  .header__menu-checkstatus::before {
+    content: "Статус ремонта";
+    font-weight: bold;
+    margin-left: 40px;
+  }
+  .header__wrap {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .information__text {
+    margin: 30px 16px;
+    width: 490px;
+    height: 220px;
+    overflow: hidden;
+  }
+  .content__foto {
+    max-width: 531px;
+  }
+}
