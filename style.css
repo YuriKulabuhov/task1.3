@@ -28,7 +28,7 @@ body {
   padding-left: 20px;
 }
 .menu-burger__icon {
-  background-image: url("/img/burger.svg");
+  background-image: url("img/burger.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 40px;
@@ -38,32 +38,32 @@ body {
   padding-right: 30px;
 }
 .menu-call__icon {
-  background-image: url("/img/call.svg");
+  background-image: url("img/call.svg");
   width: 40px;
   height: 40px;
   margin: 24px 16px;
 }
 .menu-chat__icon {
-  background-image: url("/img/chat.svg");
+  background-image: url("img/chat.svg");
   width: 40px;
   height: 40px;
   margin: 24px 16px;
 }
 .menu-profile__icon {
-  background-image: url("/img/profile.svg");
+  background-image: url("img/profile.svg");
   width: 40px;
   height: 40px;
   margin: 24px 16px;
 }
 .menu-repair__icon {
-  background-image: url("/img/repair.svg");
+  background-image: url("img/repair.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 40px;
   height: 40px;
 }
 .menu-checkstatus__icon {
-  background-image: url("/img/checkstatus.svg");
+  background-image: url("img/checkstatus.svg");
   width: 40px;
   height: 40px;
   margin-left: 16px;
