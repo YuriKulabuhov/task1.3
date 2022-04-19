@@ -266,7 +266,9 @@ body {
     position: absolute;
     margin: 70px 0px 30px 25px;
   }
-
+  .main__right-shadow {
+    display: none;
+  }
   .main__information-text {
     margin: 30px 16px;
     width: 490px;
