@@ -104,7 +104,7 @@ body {
   margin-left: 30px;
   display: flex;
 }
-.information-link__arrow {
+.main__arrow {
   margin-top: 5px;
   width: 15px;
   height: 15px;
@@ -125,7 +125,7 @@ body {
   margin-right: 60px;
   transform: rotate(135deg);
 }
-.information-link__text {
+.main__text-link {
   margin-left: 5px;
   font-weight: bold;
 }
