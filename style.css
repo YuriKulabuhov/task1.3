@@ -9,9 +9,9 @@ body {
   font-family: "TT Lakes";
 }
 
-.header-menu__call,
-.header-menu__chat,
-.header-menu__profile {
+.header__call,
+.header__chat,
+.header__profile {
   display: none;
 }
 .header__header-menu {
@@ -20,10 +20,10 @@ body {
   display: flex;
   align-items: center;
 }
-.header-menu__burger {
+.header__burger {
   margin-right: 17px;
 }
-.header-menu__repair {
+.header__repair {
   border-left: 2px solid #eaeaea;
   padding-left: 20px;
 }
@@ -34,7 +34,7 @@ body {
   width: 40px;
   height: 40px;
 }
-.header-menu__logo {
+.header__logo {
   padding-right: 30px;
 }
 .call__icon {
@@ -78,7 +78,7 @@ body {
   display: flex;
   padding-bottom: 10px;
 }
-.menu__button {
+.main__button {
   flex: 0 0 240px;
   padding: 8px 0px;
   text-align: center;
@@ -87,7 +87,7 @@ body {
   background-color: white;
   margin: 20px 0px 5px 10px;
 }
-.menu__button:first-of-type {
+.main__button:first-of-type {
   border: 2px solid #b8ffec;
 }
 .information__text {
@@ -130,7 +130,7 @@ body {
   font-weight: bold;
 }
 
-.content__foto {
+.main__foto {
   margin: 30px 0px;
   width: 100%;
   max-width: 320px;
@@ -143,17 +143,17 @@ body {
   .header__header-menu {
     justify-content: space-between;
   }
-  .header-menu__call,
-  .header-menu__chat,
-  .header-menu__profile {
+  .header__call,
+  .header__chat,
+  .header__profile {
     display: block;
   }
-  .header-menu__burger {
+  .header__burger {
     border-right: 2px solid #eaeaea;
     margin: 24px 0px 24px 24px;
     padding-right: 20px;
   }
-  .header-menu__logo {
+  .header__logo {
     flex-grow: 1;
     margin-left: 20px;
   }
@@ -171,17 +171,17 @@ body {
     border-radius: 5%;
     width: 100%;
   }
-  .content__foto {
+  .main__foto {
     margin: 30px 16px;
     max-width: 360px;
   }
 }
 @media (min-width: 1120px) {
-  .header-menu__burger,
-  .header-menu__logo,
-  .header-menu__call,
-  .header-menu__chat,
-  .header-menu__profile {
+  .header__burger,
+  .header__logo,
+  .header__call,
+  .header__chat,
+  .header__profile {
     display: none;
   }
   .header__header-menu {
@@ -190,18 +190,18 @@ body {
   .header__title {
     width: 350px;
   }
-  .header-menu__repair,
-  .header-menu__checkstatus {
+  .header__repair,
+  .header__checkstatus {
     display: flex;
     align-items: center;
     border: none;
   }
-  .header-menu__repair::before {
+  .header__repair::before {
     content: "Оставить заявку";
     padding-right: 20px;
     font-weight: bold;
   }
-  .header-menu__checkstatus::before {
+  .header__checkstatus::before {
     content: "Статус ремонта";
     font-weight: bold;
     margin-left: 40px;
@@ -218,14 +218,14 @@ body {
     align-items: center;
     height: 50px;
   }
-  .menu__button {
+  .main__button {
     flex-basis: 210px;
   }
-  .menu__button:last-of-type {
+  .main__button:last-of-type {
     position: absolute;
     margin: 70px 0px 30px 25px;
   }
-  .menu__button:nth-last-of-type(2) {
+  .main__button:nth-last-of-type(2) {
     display: none;
   }
   .information__text {
@@ -234,7 +234,7 @@ body {
     height: 220px;
     overflow: hidden;
   }
-  .content__foto {
+  .main__foto {
     max-width: 531px;
   }
 }
