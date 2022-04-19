@@ -168,12 +168,12 @@ body {
   font-weight: bold;
 }
 
-.main__foto {
+.photo {
   margin: 30px 0px;
   width: 100%;
   max-width: 320px;
 }
-.foto__foto1 {
+.photo__photo1 {
   width: 100%;
 }
 
@@ -205,11 +205,11 @@ body {
     height: 190px;
     overflow: hidden;
   }
-  .foto__foto1 {
+  .photo__photo1 {
     border-radius: 5%;
     width: 100%;
   }
-  .main__foto {
+  .photo {
     margin: 30px 16px;
     max-width: 360px;
   }
@@ -273,7 +273,7 @@ body {
     height: 220px;
     overflow: hidden;
   }
-  .main__foto {
+  .photo {
     max-width: 531px;
   }
 }
