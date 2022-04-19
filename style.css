@@ -90,6 +90,44 @@ body {
 .button1 {
   border: 2px solid #b8ffec;
 }
+.main__right-shadow {
+  background-image: linear-gradient(
+    left top,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 50%
+  );
+  background-image: -moz-linear-gradient(
+    left top,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 50%
+  );
+  background-image: -o-linear-gradient(
+    left top,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 50%
+  );
+  background-image: -khtml-linear-gradient(
+    left top,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 50%
+  );
+  background-image: -webkit-linear-gradient(
+    left top,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 50%
+  );
+  background-image: -ms-linear-gradient(
+    left top,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 50%
+  );
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  z-index: 2;
+}
 .main__information-text {
   margin: 30px 16px;
   width: 300px;
